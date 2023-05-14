@@ -1,0 +1,39 @@
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+}
+
+.navItem {
+  font-size: 16px;
+  color: #00c7ae;
+  text-decoration: none;
+  margin-left: 20px;
+  border: 1px solid #00c7ae;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.navItem:hover {
+  background-color: #00c7ae;
+  color: white;
+}

@@ -1,0 +1,65 @@
+.post-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-wrap__box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-title {
+  margin-bottom: 5px;
+}
+
+.post-info {
+  margin-top: 10px;
+  color: #888;
+  font-size: 14px;
+}
+
+.post-content {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  min-height: 800px;
+}
+
+.post-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.post-images img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* 버튼 스타일 */
+.btn-modify,
+.btn-remove,
+.btn-back {
+  font-size: 16px;
+  color: #00c7ae;
+  text-decoration: none;
+  margin-left: 20px;
+  border: 1px solid #00c7ae;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.btn-modify:hover,
+.btn-remove:hover,
+.btn-back:hover {
+  background-color: #00c7ae;
+  color: white;
+}
